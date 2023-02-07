@@ -1,3 +1,6 @@
+Group project for Cook Systems
+Worked with Beizul, d5732, rhundal, sejobasic, amsalmeron, SPatel144
+
 Assessment 3
 ===============================
 # Overview

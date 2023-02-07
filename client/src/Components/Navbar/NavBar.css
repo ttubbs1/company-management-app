@@ -1,0 +1,90 @@
+.nav-list {
+  width: 100% !important;
+  text-align: center;
+  background-color: var(--card-color);
+}
+
+.nav-list-item {
+  display: flex !important;
+  justify-content: center !important;
+  width: calc(100% - 20%) !important;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.nav-list-item:not(:last-of-type) { 
+  border-bottom: solid 1px rgba(255,255,255, 0.1);
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-list-btn {
+  text-align: center !important;
+  background-color: var(--card-color) !important;
+}
+
+/* Navbar text  */
+.css-10hburv-MuiTypography-root {
+  font-size: 2.5rem !important;
+  color: var(--btn-color) !important;
+}
+
+.css-10hburv-MuiTypography-root:hover {
+  color: var(--accent-color) !important;
+}
+
+/* Navbar bottom line */
+.css-9mgopn-MuiDivider-root {
+  display: none !important;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  padding-left: 3%;
+  gap: 20px;
+  height: 8vh;
+  color: var(--btn-color);
+  /* border-bottom: 2px solid var(--accent-color); */
+  box-shadow: 1px 3px 20px rgba(0, 0, 0, 0.58);
+}
+
+.nav-logo {
+  width: 60px;
+}
+
+.logout-btn {
+  font-size: 2rem !important;
+  width: 60px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  color: var(--btn-hover);
+}
+
+.nav-header {
+  color: var(--btn-color);
+  font-size: 1.5rem;
+}
+
+.nav-icon-btn,
+.nav-icon-close-btn {
+  position: absolute !important;
+  z-index: 100 !important;
+  right: 2% !important;
+  color: var(--btn-color) !important;
+  background: none !important;
+}
+
+.nav-icon,
+.nav-close-icon {
+  height: 60px !important;
+  width: 60px !important;
+}
+
+.nav-close-icon:hover {
+  color: var(--accent-color) !important;
+}
